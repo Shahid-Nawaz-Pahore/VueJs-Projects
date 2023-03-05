@@ -10,17 +10,23 @@
 </div>
   <HelloWorld msg="I am Welcome to myself in very buatifull and Sweet VueJs Course "/>
   <InterpolationAndData/>
+  <MethodDefineUse/>
+  <VueJsEvent/>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import HelloWorld from './components/HelloWorld.vue';
 import InterpolationAndData from './components/InterpolationAndData.vue';
+import MethodDefineUse from './components/MethodDefineUse.vue';
+import VueJsEvent from './components/VueJsEvent.vue';
 
 export default {
   name: 'App',
   components: {
     HelloWorld,
     InterpolationAndData,
+    MethodDefineUse,
+    VueJsEvent,
   }
 }
 </script>
